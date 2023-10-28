@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+
+    color: #29374E;
+
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    position: relative;
+    /* padding: 0 60px; */
+    /* background-color: #4c4c4c; */
+}
+
+.content_block {
+    display: flex;
+    justify-content: center;
+    /* min-height: 100vh; */
+    align-items: flex-start;
+}
+
+.first_block {
+    background-color: #CBECFF;
+    height: 671px;
+}
+
+.lang_block {
+    display: flex;
+    gap: 10px;
+    margin-top: 22px;
+    justify-content: flex-end;
+}
+
+.lang_selector {
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.lang_active {
+    background-color: white;
+    color: #0962E8;
+}
+
+.intro_block {
+    margin-top: 78px;
+    z-index: 2;
+
+}
+
+.intro_block p {
+    margin-top: 14px;
+    font-size: 22px;
+    line-height: 130%;
+}
+
+.bg_img {
+    position: absolute;
+    top: 44px;
+    right: 0;
+    z-index: 1;
+}
+
+.btn_order {
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    padding: 14px 33px;
+    border-radius: 12px;
+    background-color: #0962E8;
+    width: fit-content;
+    margin-top: 38px;
+    cursor: pointer;
+}
+
+.mini_cards {
+    /* background-color: #0962E8; */
+    z-index: 2;
+    position: relative;
+    display: flex;
+    margin-top: 197px;
+}
+
+.m_card {
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 6px 4px 12px 0px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+    padding-bottom: 30px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    display: flex;
+    gap: 10px;
+}
+
+.m_ico {
+    color: #0962E8;
+    padding: 8px;
+    background-color: #EFF9FF;
+    border-radius: 100%;
+    height: fit-content;
+    width: fit-content;
+}
